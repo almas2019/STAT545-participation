@@ -1,2 +1,2 @@
-# STAT545-participation
+# STAT 545A participation
 A repository for participation for the UBC course stats545 
