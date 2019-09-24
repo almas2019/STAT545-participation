@@ -56,20 +56,28 @@ DT::datatable()
 3. Determine the country that experienced the sharpest 5-year drop in life expectancy, in each continent, sorted by the drop, by rearranging the following lines of code. Ensure there are no `NA`'s. Instead of using `lag()`, use the convenience function provided by the `tsibble` package, `tsibble::difference()`:
 
 ```
-drop_na() %>% 
-ungroup() %>% 
-arrange(year) %>% 
-filter(inc_life_exp == min(inc_life_exp)) %>% 
-gapminder %>% 
-mutate(inc_life_exp = FILL_THIS_IN) %>% 
-arrange(inc_life_exp) %>% 
-group_by(country) %>% 
-group_by(continent) %>% 
-knitr::kable()
+
+
+
+
+
+
+
+
 ```
 
 ```{r}
-
+gapminder %>% 
+  group_by(country)  %>% 
+    arrange(year) %>% 
+  mutate(inc_life_exp = difference(lifeExp)) %>% 
+  drop_na() %>% 
+  ungroup() %>% 
+  group_by(continent) %>% 
+  filter(inc_life_exp == min(inc_life_exp)) %>%  ## Filtering happens independantly within each group
+  arrange(inc_life_exp) %>%  ## Arrange works independantly of groups
+  knitr::kable()
+  
 ```
 
 
