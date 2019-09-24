@@ -44,11 +44,12 @@ group_by(country) %>%
 ```
 
 ```{r}
-mutate(rel_growth = FILL_THIS_IN) %>% 
-arrange(year) %>% 
 gapminder %>% 
-DT::datatable()
 group_by(country) %>% 
+arrange(year) %>% 
+mutate(rel_growth = pop-first(pop)) %>% 
+DT::datatable()
+
 ```
 
 
