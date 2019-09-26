@@ -78,11 +78,13 @@ ggplot(gapminder, aes(gdpPercap, lifeExp)) +
 ```{r, fig.width = 5, fig.height = 2}
 gapminder %>% 
   filter(continent != "Oceania") %>% 
-  ggplot(aes(gdpPercap, lifeExp)) +
+  ggplot(aes(gdpPercap, lifeExp,fill=continent)) +
   facet_wrap(~ continent,nrow=1) +
-  geom_point(alpha = 0.1) +
+  geom_point(alpha = 0.5,shape=21) + # shape= 21 is a hollow circle 
   scale_x_log10(labels = scales::comma_format())+
-  scale_size_area() # mapping by area to solve overplotting issue
+  scale_size_area()# mapping by area to solve overplotting issue
+#colour= outside area of of the object, fill is the inside of the foll
+
 ```
 
 A list of shapes can be found [at the bottom of the `scale_shape` documentation](https://ggplot2.tidyverse.org/reference/scale_shape.html).
