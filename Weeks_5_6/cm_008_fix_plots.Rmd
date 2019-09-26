@@ -65,7 +65,7 @@ gapminder %>%
 ggplot(gapminder, aes(gdpPercap, lifeExp)) +
   geom_point(alpha = 0.2) +
   scale_x_log10(labels=scales::comma_format())+ #converts scientific notation to commas
-  facet_wrap(~continent) # splits up plot for each continent and even labels them
+  facet_wrap(~continent,scales="free") # splits up plot for each continent and even labels them, scales=free frees up x and y axis for each plot, but we can no longer compare between each plot 
 ```
 
 ### 3(b) Bubble Plot
@@ -79,9 +79,10 @@ ggplot(gapminder, aes(gdpPercap, lifeExp)) +
 gapminder %>% 
   filter(continent != "Oceania") %>% 
   ggplot(aes(gdpPercap, lifeExp)) +
-  facet_wrap(~ continent) +
-  geom_point(alpha = 0.2) +
-  scale_x_log10(labels = scales::comma_format())
+  facet_wrap(~ continent,nrow=1) +
+  geom_point(alpha = 0.1) +
+  scale_x_log10(labels = scales::comma_format())+
+  scale_size_area() # mapping by area to solve overplotting issue
 ```
 
 A list of shapes can be found [at the bottom of the `scale_shape` documentation](https://ggplot2.tidyverse.org/reference/scale_shape.html).
