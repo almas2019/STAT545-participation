@@ -2,6 +2,7 @@
 title: "Tibble Exploration"
 output:
   html_document:
+    keep md: true
     toc: true
     theme: cerulean
 ---
