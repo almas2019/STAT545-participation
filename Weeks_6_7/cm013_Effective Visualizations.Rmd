@@ -58,7 +58,7 @@ Write some notes here about what "effective visualizations" means to you. Think 
 > Question: For the years this temperature data is displayed, is there an appreciable increase in temperature?
 > 
 > Yes, No, Do not know
-- <<Do Not Know/No, becuase I can't tell with the way data is presented, it looks like there is no significant change.>>
+- << Do Not Know/No, becuase I can't tell with the way data is presented, it looks like there is no significant change. >>
 
 - Main takeaway: Big y axis range makes changes look insignficant, x axis is not labelled, 2C change is actually significant
 
@@ -67,7 +67,7 @@ Write some notes here about what "effective visualizations" means to you. Think 
 > Question: Evaluate the strength of the claim based on the data: “Soon after this legislation was passed, gun deaths sharply declined."
 >
 > Very strong, strong, weak, very week, do not know
-- <Very Weak, axis is upside down and looks like the opposite actually occured (gun deaths seemed to increase)>>
+- << Very Weak, axis is upside down and looks like the opposite actually occured (gun deaths seemed to increase) >>
 
 - Main takeaway: Due to way axis is presented , the opposite effect is shown 
 
