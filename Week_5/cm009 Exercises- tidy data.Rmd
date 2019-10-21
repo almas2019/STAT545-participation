@@ -1,7 +1,9 @@
 ---
-title: "cm009 Exercises: tidy data"
-output: html_notebook
-editor_options: 
+title: 'cm009 Exercises: tidy data'
+output:
+  html_document:
+    df_print: paged
+editor_options:
   chunk_output_type: inline
 ---
 
@@ -30,11 +32,14 @@ lotr
 Yes, the data has one observation and 1 valuable for each variable 
 2. Widen the data so that we see the words spoken by each race, by putting race as its own column.
 
+Notes (from handwritten): Why untidy data is bad: hard to do pairwise analysis 
+
 ```{r}
 (lotr_wide <- lotr %>% 
   pivot_wider(id_cols= c(-Race, -Words), ## identifiers
               names_from= Race, 
               values_from = Words))
+## These are new functions to widen/lengthen data-->pivoting functions
 ```
 
 3. Re-lengthen the wide LOTR data from Question 2 above.
@@ -60,8 +65,10 @@ guest %>%
 ```{r}
 (guest_long <- guest %>% 
   pivot_longer(cols      = c(-party, -name), 
-               names_to  = c(".value","event"),
+               names_to  = c(".value","event"), 
                names_sep="_"))
+
+## need to include . for value not just "value"
 ```
 
 2. Use `tidyr::separate()` to split the name into two columns: "first" and "last". Then, re-unite them with `tidyr::unite()`.
