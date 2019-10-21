@@ -5,6 +5,8 @@ output:
     df_print: paged
 editor_options:
   chunk_output_type: inline
+  keep_md: true
+  theme: paper   
 ---
 
 ```{r, warning = FALSE, message = FALSE}
