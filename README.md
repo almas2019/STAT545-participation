@@ -1,6 +1,6 @@
 # STAT 545A participation
 
-A repository for participation for the UBC course stats545 which focusses on using R for data analysis. 
+A repository for participation for the UBC course stats545 which focuses on using R for data analysis. 
 ### Table of Contents:
 |Name(.R or .Rmd) | HTML | Description |Folder|
 | --- | --- | --- | --- |
@@ -14,9 +14,9 @@ A repository for participation for the UBC course stats545 which focusses on usi
 | [Class Meeting 8](https://github.com/almas2019/STAT545-participation/blob/master/Week_4/cm_008_fix_plots.Rmd)| [HTML](https://almas2019.github.io/STAT545-participation/Week_4/cm_008_fix_plots.html) | Fix plots-ggplot2 plotting part 2|[Week 4](https://github.com/almas2019/STAT545-participation/tree/master/Week_4)
 | [Class Meeting 9](https://github.com/almas2019/STAT545-participation/blob/master/Week_5/cm009%20Exercises-%20tidy%20data.Rmd)| [HTML](https://almas2019.github.io/STAT545-participation/Week_5/cm009-Exercises--tidy-data.html) | Tidy data and intro to tidyr |[Week 5](https://github.com/almas2019/STAT545-participation/tree/master/Week_5)
 | [Class Meeting 10](https://github.com/almas2019/STAT545-participation/blob/master/Week_5/cm010_tibble_joins.Rmd)| [HTML](https://almas2019.github.io/STAT545-participation/Week_5/cm010_tibble_joins.html)| Tibble joining|[Week 5](https://github.com/almas2019/STAT545-participation/tree/master/Week_5)
-| [Class Meeting 11](https://github.com/almas2019/STAT545-participation/blob/master/Weeks_6_7/cm_011.R)| No only .R | File input/output, here package|[Weeks_6_7](https://github.com/almas2019/STAT545-participation/tree/master/Weeks_6_7)
-| [Class Meeting 12](link)| HTML| _completed_|
-| [Class Meeting 13](link)| HTML | _completed_|
-| [Class Meeting 14](link)| HTML | _completed_|
+| [Class Meeting 11](https://github.com/almas2019/STAT545-participation/blob/master/Weeks_6_7/cm_011.R)|No, only .R | File input/output, here package|[Weeks_6_7](https://github.com/almas2019/STAT545-participation/tree/master/Weeks_6_7)
+| [Class Meeting 12](https://github.com/almas2019/STAT545-participation/blob/master/Weeks_6_7/cm012_factors.Rmd)| [HTML](https://almas2019.github.io/STAT545-participation/Weeks_6_7/cm012_factors.html)|Factors in R|[Weeks_6_7](https://github.com/almas2019/STAT545-participation/tree/master/Weeks_6_7)
+| [Class Meeting 13](https://github.com/almas2019/STAT545-participation/blob/master/Weeks_6_7/cm013_Effective%20Visualizations.Rmd)| [HTML](https://almas2019.github.io/STAT545-participation/Weeks_6_7/cm013_Effective-Visualizations.html) | Aspects of Effective Visualizations | [Weeks_6_7](https://github.com/almas2019/STAT545-participation/tree/master/Weeks_6_7)
+| [Class Meeting 14](https://github.com/almas2019/STAT545-participation/blob/master/Weeks_6_7/cm014_model_fitting_R.Rmd)| [HTML](https://almas2019.github.io/STAT545-participation/Weeks_6_7/cm014_model_fitting_R.html) |Model Fitting in R|[Weeks_6_7](https://github.com/almas2019/STAT545-participation/tree/master/Weeks_6_7)
 
 Readme needs to be further edited
