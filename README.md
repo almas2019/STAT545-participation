@@ -1,6 +1,6 @@
 # STAT 545A participation
 
-A repository for participation for the UBC course stats545 (Winter term 2019) which focuses on using R for data analysis. 
+A repository for in class activity participation for the UBC course stats545 (Winter term 2019) which focuses on using R for data analysis. 
 
 ### Table of Contents:
 |Name(.R or .Rmd) | HTML | Description |Folder|
