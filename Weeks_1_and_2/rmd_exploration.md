@@ -1,11 +1,7 @@
 ---
 title: "Tibble Exploration"
 output:
-  html_document:
-    keep_md: yes
-  always_allow_html: default
-  pdf_document:
-    theme: paper
+  pdf_document
 ---
 <!-- This is comment -->
 
