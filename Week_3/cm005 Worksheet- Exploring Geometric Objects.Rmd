@@ -124,6 +124,7 @@ What's wrong with the following code? Fix it.
 ```{r, fig.width = 5, fig.height = 2}
 ggplot(data = gapminder) +
   geom_point(aes(x = gdpPercap, y = lifeExp), alpha = 0.1)
+## need to include aes(x=) instead of just x=
 ```
 
 

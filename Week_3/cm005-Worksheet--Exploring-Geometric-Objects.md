@@ -160,6 +160,10 @@ ggplot(data = gapminder) +
 
 <img src="cm005-Worksheet--Exploring-Geometric-Objects_files/figure-html/unnamed-chunk-7-1.png" style="display: block; margin: auto;" />
 
+```r
+## need to include aes(x=) instead of just x=
+```
+
 
 ### 2(e) BONUS
 
