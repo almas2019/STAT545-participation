@@ -1,7 +1,10 @@
 ---
 title: "Tibble Exploration"
 output:
-  pdf_document
+  html_document:
+    keep md: true
+    toc: true
+    theme: cerulean
 ---
 <!-- This is comment -->
 
