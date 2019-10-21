@@ -20,4 +20,4 @@ A repository for in class activity participation for the UBC course stats545 (Wi
 | [Class Meeting 13](https://github.com/almas2019/STAT545-participation/blob/master/Weeks_6_7/cm013_Effective%20Visualizations.Rmd)| [HTML](https://almas2019.github.io/STAT545-participation/Weeks_6_7/cm013_Effective-Visualizations.html) | Aspects of Effective Visualizations | [Weeks_6_7](https://github.com/almas2019/STAT545-participation/tree/master/Weeks_6_7)
 | [Class Meeting 14](https://github.com/almas2019/STAT545-participation/blob/master/Weeks_6_7/cm014_model_fitting_R.Rmd)| [HTML](https://almas2019.github.io/STAT545-participation/Weeks_6_7/cm014_model_fitting_R.nb.html) |Model Fitting in R|[Weeks_6_7](https://github.com/almas2019/STAT545-participation/tree/master/Weeks_6_7)
 
-Additional file formats within in the respective folders.
+Additional file formats within the respective folders.
